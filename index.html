@@ -6,17 +6,19 @@
     <title>Mohammad Reza Khosrowpour - CV</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             line-height: 1.6;
             margin: 20px;
+            background-color: #fff; /* White background */
+            color: #000; /* Black text */
+        }
+
+        h1, h2 {
+            color: #ffcc00; /* Yellow heading */
         }
 
         h1 {
             text-align: center;
-        }
-
-        h2 {
-            margin-top: 20px;
         }
 
         ul {
@@ -27,85 +29,129 @@
         li {
             margin-bottom: 5px;
         }
+
+        p {
+            color: #333; /* Dark gray text */
+        }
+
+        /* Styling for sections */
+        section {
+            background-color: #f8f8f8; /* Light gray background */
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+
+        /* Styling for skills and interests */
+        .skills, .interests {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .skills li, .interests li {
+            flex: 0 0 48%; /* Adjust the width based on your preference */
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
-    <h1>Mohammad Reza Khosrowpour</h1>
-    <p>System Network Administrator<br>Enthusiastic to new challenges and learn new technologies</p>
+    <section>
+        <h1>Mohammad Reza Khosrowpour</h1>
+        <p>System Network Administrator<br>Enthusiastic about new challenges and learning new technologies</p>
+    </section>
 
-    <h2>WORK EXPERIENCE</h2>
-    <p>Network Designer and Network Administrator<br>Afarand Co<br>07/2016 - Present<br>Tehran, Iran<br>Architecture and Construction Company</p>
-    <ul>
-        <li>Designing Wireless Network</li>
-        <li>Implementing Wireless Network</li>
-        <li>Improving Wireless Coverage</li>
-        <li>Providing Active Directory Domain Services</li>
-        <li>Implementing Local Network</li>
-    </ul>
-    <p>University of Applied Sciences<br>Mohammadreza.khp@icloud.com +989128136105<br>Tehran, Iran<br>Linkedin.com/in/mohammad-reza-khosrowpour</p>
+    <section>
+        <h2>WORK EXPERIENCE</h2>
+        <p>Network Designer and Network Administrator<br>Afarand Co<br>07/2016 - Present<br>Tehran, Iran<br>Architecture and Construction Company</p>
+        <ul>
+            <li>Designing Wireless Network</li>
+            <li>Implementing Wireless Network</li>
+            <li>Improving Wireless Coverage</li>
+            <li>Providing Active Directory Domain Services</li>
+            <li>Implementing Local Network</li>
+        </ul>
+        <p>University of Applied Sciences<br>Mohammadreza.khp@icloud.com +989128136105<br>Tehran, Iran<br>Linkedin.com/in/mohammad-reza-khosrowpour</p>
+    </section>
 
-    <h2>SKILLS</h2>
-    <ul>
-        <li>Windows 10</li>
-        <li>Wireshark</li>
-        <li>GNS3</li>
-        <li>Python</li>
-        <li>Microsoft Office</li>
-    </ul>
+    <section>
+        <h2>SKILLS</h2>
+        <ul class="skills">
+            <li>Windows 10</li>
+            <li>Wireshark</li>
+            <li>GNS3</li>
+            <li>Python</li>
+            <li>Microsoft Office</li>
+        </ul>
+    </section>
 
-    <h2>PERSONAL PROJECTS</h2>
-    <ul>
-        <li>MacOS</li>
-        <li>Linux</li>
-        <li>Windows Server</li>
-    </ul>
+    <section>
+        <h2>PERSONAL PROJECTS</h2>
+        <ul class="interests">
+            <li>MacOS</li>
+            <li>Linux</li>
+            <li>Windows Server</li>
+        </ul>
+    </section>
 
-    <h2>NATIONAL DOCUMENTATION CENTER (08/2016 – 04/2017)</h2>
-    <ul>
-        <li>Designing Local Network</li>
-        <li>Implementing Active and Passive Network</li>
-    </ul>
-    <p>05/2014 – 06/2016<br>University<br>Achievements/Tasks<br>Tehran, Iran</p>
+    <section>
+        <h2>NATIONAL DOCUMENTATION CENTER (08/2016 – 04/2017)</h2>
+        <ul>
+            <li>Designing Local Network</li>
+            <li>Implementing Active and Passive Network</li>
+        </ul>
+        <p>05/2014 – 06/2016<br>University<br>Achievements/Tasks<br>Tehran, Iran</p>
+    </section>
 
-    <h2>CERTIFICATES</h2>
-    <ul>
-        <li>Design Active and Passive Network</li>
-        <li>Implementing Active and Passive Network</li>
-        <li>Bandwidth Improvement</li>
-        <li>Kerio Firewall</li>
-    </ul>
+    <section>
+        <h2>CERTIFICATES</h2>
+        <ul>
+            <li>Design Active and Passive Network</li>
+            <li>Implementing Active and Passive Network</li>
+            <li>Bandwidth Improvement</li>
+            <li>Kerio Firewall</li>
+        </ul>
+    </section>
 
-    <h2>EDUCATION</h2>
-    <p>Bachelor of Information Technology<br>Islamic Azad University, Parand Branch</p>
-    <ul>
-        <li>ICDL</li>
-        <li>NETWORK+</li>
-        <li>MCITP 2008</li>
-        <li>CCNA</li>
-        <li>CCNP Route</li>
-        <li>CCNP Switch</li>
-    </ul>
-    <p>(09/2009– 03/2010) (12/2009 – 04/2010) (12/2010 – 12/2011) (06/2012 – 09/2012) (09/2012 – 12/2012) (02/2013 – 07/2013)</p>
+    <section>
+        <h2>EDUCATION</h2>
+        <p>Bachelor of Information Technology<br>Islamic Azad University, Parand Branch</p>
+        <ul>
+            <li>ICDL</li>
+            <li>NETWORK+</li>
+            <li>MCITP 2008</li>
+            <li>CCNA</li>
+            <li>CCNP Route</li>
+            <li>CCNP Switch</li>
+        </ul>
+        <p>(09/2009– 03/2010) (12/2009 – 04/2010) (12/2010 – 12/2011) (06/2012 – 09/2012) (09/2012 – 12/2012) (02/2013 – 07/2013)</p>
+    </section>
 
-    <h2>LANGUAGES</h2>
-    <ul>
-        <li>Persian (native) - Full Professional Proficiency</li>
-        <li>English - Full Professional Proficiency</li>
-    </ul>
+    <section>
+        <h2>LANGUAGES</h2>
+        <ul>
+            <li>Persian (native) - Full Professional Proficiency</li>
+            <li>English - Full Professional Proficiency</li>
+        </ul>
+    </section>
 
-    <h2>INTERESTS</h2>
-    <ul>
-        <li>Bodybuilding</li>
-        <li>Driving</li>
-        <li>Climbing</li>
-        <li>Music</li>
-        <li>Movies</li>
-        <li>Tennis</li>
-        <li>Running</li>
-        <li>Youtube</li>
-        <li>Internet</li>
-    </ul>
+    <section>
+        <h2>INTERESTS</h2>
+        <ul class="interests">
+            <li>Bodybuilding</li>
+            <li>Driving</li>
+            <li>Climbing</li>
+            <li>Music</li>
+            <li>Movies</li>
+            <li>Tennis</li>
+            <li>Running</li>
+            <li>Youtube</li>
+            <li>Internet</li>
+        </ul>
+    </section>
 
-    <p>09/2009 – 09/2014<br>Final Project<br>Tehran, Iran<br>Implementation and Simulation of an Extranet Network in GNS3 Environment</p>
+    <section>
+        <p>09/2009 – 09/2014<br>Final Project<br>Tehran, Iran<br>Implementation and Simulation of an Extranet Network in GNS3 Environment</p>
+    </section>
 </body>
 </html>
